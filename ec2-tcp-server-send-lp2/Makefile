@@ -1,0 +1,19 @@
+# c++ project
+CC=g++
+LIBS=-lsfml-system -lsfml-network
+DEFS=EC2_INSTANCE
+
+# examples to compile
+EX1=tcpserver
+EX2=tcpclient
+ 
+all: $(EX1) $(EX2)
+
+$(EX1):
+	$(CC) -D$(DEFS) -o $(EX1) $(EX1).cc $(LIBS)
+
+$(EX2):
+	$(CC) -D$(DEFS) -o $(EX2) $(EX2).cc $(LIBS)
+ 
+clean:
+	rm -f core *.o $(EX1) $(EX2)
