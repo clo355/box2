@@ -1,2 +1,7 @@
 ec2 folders: use on an EC2 instance, Ubuntu
 lp1/2 folders: use on CC3200 SimpleLink launchpads
+
+-LP1 requests TCP connection with EC2.
+-Connection accepted. LP1 sends packets, EC2 receives.
+-EC2 requests connection with LP2.
+-Connection accepted. EC2 sends packets, LP2 receives.
