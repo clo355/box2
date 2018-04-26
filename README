@@ -1,4 +1,4 @@
-ec2 folders: use on an EC2 instance, Ubuntu
+ec2 folders: use on an Ubuntu EC2
 lp1/2 folders: use on CC3200 SimpleLink launchpads
 
 -LP1 requests TCP connection with EC2.
